@@ -35,12 +35,3 @@ instances:
     email: u4@gmail.com
     publicKey: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILwGY/8dDX0NgdYsHNkcKfllV7IjJu0S3e/Y+JTH5IjP
   expirationDate: 26-12-2024 
-- name: u5
-  resources:
-    flavor: micro
-    disk: 20
-  user:
-    name: u5
-    email: u5@gmail.com
-    publicKey: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILwGY/8dDX0NgdYsHNkcKfllV7IjJu0S3e/Y+JTH5IjP
-  expirationDate: 27-12-2024 

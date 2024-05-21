@@ -1,0 +1,67 @@
+cluster:
+  hosts:
+  - name: hog26
+    resources:
+      cpu: 4
+      memory: 4
+      disk: 90
+  - name: hog27
+    resources:
+      cpu: 4
+      memory: 4
+      disk: 90
+  - name: hog28
+    resources:
+      cpu: 4
+      memory: 4
+      disk: 90
+  flavors:
+  - name: micro
+    resources:
+      cpu: 1
+      memory: 1
+  storage:
+    pool: incuslvm
+  image: hogwarts-cloud-image
+  domain: vm.urgu.org
+  network:
+    bridge: vmbr
+    nic: veth0
+    cidr: 10.96.17.0/24
+    gateway: 10.96.17.254
+    nameservers:
+    - 10.98.240.10
+    - 10.74.240.10
+    occupiedIPs:
+    - 10.96.17.1
+    - 10.96.17.2
+    - 10.96.17.3
+    - 10.96.17.4
+    - 10.96.17.5
+    - 10.96.17.6
+    - 10.96.17.7
+    - 10.96.17.8
+    - 10.96.17.9
+    - 10.96.17.10
+    - 10.96.17.11
+    - 10.96.17.12
+    - 10.96.17.13
+    - 10.96.17.14
+    - 10.96.17.15
+    - 10.96.17.16
+    - 10.96.17.17
+    - 10.96.17.18
+    - 10.96.17.19
+    - 10.96.17.20
+    - 10.96.17.21
+    - 10.96.17.22
+    - 10.96.17.23
+    - 10.96.17.24
+    - 10.96.17.25
+    - 10.96.17.26
+    - 10.96.17.27
+    - 10.96.17.28
+    - 10.96.17.254
+  mail:
+    server: 127.0.0.1:25
+  

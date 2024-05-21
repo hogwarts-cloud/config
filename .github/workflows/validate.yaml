@@ -1,0 +1,20 @@
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    name: Validate instances
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+        
+    - name: Download hogctl latest release
+      run: |
+        curl https://api.github.com/repos/hogwarts-cloud/hogctl/releases/latest | jq '.assets[0].browser_download_url' | xargs curl -L > /usr/local/bin/hogctl
+        chmod +x /usr/local/bin/hogctl
+    
+    - name: Validate instances
+      run: |
+        hogctl validate --config=.

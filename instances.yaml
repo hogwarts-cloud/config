@@ -4,7 +4,7 @@ instances:
     flavor: micro
     disk: 20
   user:
-    name: u1
+    name: u1-user
     email: cmaster057@gmail.com
     publicKey: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILwGY/8dDX0NgdYsHNkcKfllV7IjJu0S3e/Y+JTH5IjP
   expirationDate: 23-12-2024 
@@ -13,7 +13,7 @@ instances:
     flavor: micro
     disk: 20
   user:
-    name: u2
+    name: u2-user
     email: cmaster057@gmail.com
     publicKey: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILwGY/8dDX0NgdYsHNkcKfllV7IjJu0S3e/Y+JTH5IjP
   expirationDate: 24-12-2024 
@@ -22,7 +22,7 @@ instances:
     flavor: micro
     disk: 20
   user:
-    name: u3
+    name: u3-user
     email: cmaster057@gmail.com
     publicKey: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILwGY/8dDX0NgdYsHNkcKfllV7IjJu0S3e/Y+JTH5IjP
   expirationDate: 25-12-2024 
@@ -31,7 +31,7 @@ instances:
     flavor: micro
     disk: 20
   user:
-    name: u4
+    name: u4-user
     email: cmaster057@gmail.com
     publicKey: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILwGY/8dDX0NgdYsHNkcKfllV7IjJu0S3e/Y+JTH5IjP
   expirationDate: 26-12-2024 

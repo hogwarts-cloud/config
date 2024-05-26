@@ -22,6 +22,8 @@ cluster:
       memory: 1
   storage:
     pool: incuslvm
+  backup:
+    dir: /etc/incus/backups
   image: hogwarts-cloud-image
   domain: vm.urgu.org
   network:
@@ -64,4 +66,3 @@ cluster:
     - 10.96.17.254
   mail:
     server: 127.0.0.1:25
-  

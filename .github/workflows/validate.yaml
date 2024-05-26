@@ -17,4 +17,4 @@ jobs:
     
     - name: Validate instances
       run: |
-        hogctl validate --config=.
+        hogctl validate --cluster-config=cluster.yaml --instances-config=instances.yaml
